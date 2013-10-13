@@ -1,0 +1,9 @@
+Hi Eric,
+
+
+
+It seems that with the solution of searching the id via the url,
+everything worked correctly, I have run tests and never saw any problems again.
+I tried to find why some accounts were behaving oddly.
+The only thing I found is that if the username has an @ things won't work correctly. 
+
