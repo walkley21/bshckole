@@ -5,7 +5,7 @@
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                                     <span class="white">×</span>
                             </button>
-                            Results for "Latest Registered Domains
+                            Results for "Latest Registered Domains"
                     </div>
             </div>
 
