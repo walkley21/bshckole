@@ -105,7 +105,14 @@
                                        
                                       var r = site_url+"match_groups_students/show_ajax/parent/group/parent_id/"+model_id+"/child/student/mode/rowsonly"; 
                                     
-                                     $("#replace-me").load(r);
+                                     $("#replace-me").load(r,function(){
+                                         
+                                         $('#modal-table').modal('hide');
+                                         
+                                     });
+                                     
+                                     
+                                     
                                        
                                    });
                                    
