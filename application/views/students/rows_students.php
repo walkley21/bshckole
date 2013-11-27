@@ -24,7 +24,7 @@
                         <div class="col-xs-12">
                                     
                                 <!---->
-                                <a href="<?php echo site_url('students/form/'); ?>" class="btn btn-app btn-success btn-xs" style="float:right;">
+                                <a href="<?php echo site_url('students/form/id/0/parent/school/parent_id/1'); ?>" class="btn btn-app btn-success btn-xs" style="float:right;">
 				  <i class="icon-plus bigger-160"></i>
 				  Nuevo 
 				</a>

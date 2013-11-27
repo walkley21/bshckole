@@ -112,6 +112,17 @@ class MY_Controller extends CI_Controller {
     
     function form($id=null)
     {
+        
+        $params = $this->uri->uri_to_assoc(3);
+
+        //@TODO parameter validation 
+
+        $id= $params['id'];
+        $parent = $params['parent'];
+        $parent_id = $params['parent_id'];
+         
+         $p = new $parent($parent_id);
+        
       //  echo "id is $id ";
         
         $this->id = $id;
@@ -128,7 +139,7 @@ class MY_Controller extends CI_Controller {
         $id= $object->id;
         
         
-        $school_id = 1;
+     
         
         $school= new school($id);
         $school->save($object);

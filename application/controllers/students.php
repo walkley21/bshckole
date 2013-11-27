@@ -23,13 +23,13 @@ class students extends MY_Controller{
     }
 
 
-//    function save($id)
+//    function save($id=null)
 //    {
 //        print_r($_POST);
 //        die();
 //        
 //    }
-   
+//   
     
   
     

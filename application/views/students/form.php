@@ -26,6 +26,7 @@
                                         <div class="col-sm-9">
                                                 <input  value="<?php echo $record->first_name; ?>" 
                                                         type="text" 
+                                                        name="first_name"
                                                         id="form-field-1" 
                                                         placeholder="Nombre del Alumno" 
                                                         class="col-xs-10 col-sm-5">
